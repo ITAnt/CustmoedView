@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:it="http://schemas.android.com/apk/res-auto">
+
+    <com.itant.customedview.ImageText
+        android:id="@+id/it_test"
+		it:src="@mipmap/ic_launcher"
+		it:imageWidth="20dp"
+		it:imageHeight="20dp"
+		it:text="hello"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+</RelativeLayout>
